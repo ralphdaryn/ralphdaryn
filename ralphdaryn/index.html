@@ -23,22 +23,19 @@
     ></script>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="style.css" />
-
-    <!-- Javascript -->
-    <script src="/script.js"></script>
+    <link rel="stylesheet" href="/css/style.css"/>
+    <link rel="stylesheet" href="/css/queries.css">
 
     <title>ralphdaryn</title>
   </head>
 
   <body>
     <!-- Header Section -->
-    <header>
-      <nav class="navbar">
+    <header class="header">
         <!-- Logo -->
         <h2 class="logo-text">ralphdaryn<i class="fa-solid fa-code"></i></h2>
-
-        <!-- Navigation Bar -->
+         <!-- Navigation Bar -->
+      <nav class="navbar">
         <ul class="navlink-title">
           <li class="navlink"><a class="navlink-label" href="#">Home</a></li>
           <li class="navlink">
@@ -52,6 +49,12 @@
           </li>
         </ul>
       </nav>
+
+      <!-- Mobile Navigation -->
+      <button class ="btn-mobile-nav">
+        <i class="fa-solid fa-bars fa-2x"></i>
+        <i class="fa-solid fa-xmark fa-2x"></i>
+      </button>
     </header>
 
     <!-- Hero Section -->
@@ -60,7 +63,7 @@
         <div class="hero-text">
           <p class="hero-intro">Hi, my name is</p>
           <h1>Ralph Cabauatan.</h1>
-          <h3 class="hero-role">Web Developer</h3>
+          <h3 class="hero-role">Full Stack Developer</h3>
         </div>
         <div class="pic-coding">
           <img class="coding" src="./resources/images/coding.jpg" alt="" />
@@ -80,7 +83,7 @@
             ></a>
           </li>
           <li class="sidebar-left-link">
-            <a href="http://www.linkedin.com"
+            <a href="https://www.linkedin.com/in/ralphdaryn/"
               ><i class="fa-brands fa-linkedin fa-lg"></i
             ></a>
           </li>
@@ -110,19 +113,18 @@
     </section>
 
     <!-- About Section -->
-    <section id="about">
+    <section class="aboutme reveal" id="about">
       <div class="about-me">
         <h2 class="about-me-title">About Me</h2>
         <p class="about-me-info">
-          Hi there! My name is Ralph and I'm a self taught Front End Developer
+          Hi there! My name is Ralph and I'm a self taught Full-Stack Developer
           currently based in Toronto, Ontario.<br /><br />
-          I'm passionate about building web applications and designing layouts
-          that live on the internet using my abilities with code to generate a
-          positive user experience.<br /><br />I believe with hard work and
+          I'm passionate about building web applications that live on the internet and I enjoy using logic to maintain data in the server-side with my abilities to code and produce a
+          positive user experience.<br /><br />I believe with hard work, perseverance and
           little bit of research, anything can be accomplished!
         </p>
         <div class="button-about">
-          <a href="#" class="resume">View Resume</a>
+          <a href="https://docs.google.com/document/d/1n4yLKSzhp0PQ9RoMEcx_-56lVj_lbJ78MTgBz0ORqJo/edit?usp=sharing" class="resume">View Resume</a>
         </div>
       </div>
       <div class="about-me-photo">
@@ -135,7 +137,7 @@
     </section>
 
     <!-- Skills Section -->
-    <section class="skills-section">
+    <section class="skills-section reveal">
       <div class="skills">
         <h2 class="skills-title">My Skills</h2>
         <ul class="skills-list-type">
@@ -149,87 +151,152 @@
         </ul>
         <ul class="skills-list-type">
           <li class="skills-list">
-            Jquery <i class="fa-solid fa-laptop-code"></i>
+            SQL <i class="fa-solid fa-server"></i>
+            <li class="skills-list">
+              Python <i class="fa-brands fa-python"></i>
+            </li>
           </li>
           <li class="skills-list">
-            SASS/SCSS <i class="fa-brands fa-sass"></i>
+            MongoDB <i class="fa-brands fa-envira"></i>
           </li>
           <li class="skills-list">
             Bootstrap <i class="fa-brands fa-bootstrap"></i>
           </li>
           <li class="skills-list">Git <i class="fa-brands fa-git-alt"></i></li>
-          <li class="skills-list">
-            Adobe Photoshop <i class="fa-solid fa-palette"></i>
-          </li>
         </ul>
       </div>
     </section>
 
     <!-- Projects Section -->
     <section id="projects">
-      <h2 class="projects-title">Projects I've Built</h2>
-      <div class="projects-section">
-        <img class="krspic" src="./resources/images/kicksrus.jpg" alt="krs" />
+      <h2 class="projects-title reveal">Projects I've Built</h2>
+
+      <!-- Kicks R Us -->
+      <div class="projects-section reveal">
+        <div class="container">
+          <img class="krspic" src="./resources/images/kicksrus.jpg" alt="krs" />
+          <div class="middle">
+            <div class="text">
+              <a href="https://kicksrus.netlify.app/">View Live</a>
+            </div>
+          </div>
+        </div>
         <div class="projects-feature-krs">
           <p class="featured-project">Featured Project</p>
           <h3 class="project-label">Kicks R Us</h3>
           <p class="project-info">
-            A website dedicated to members of an exclusive group to get the
-            latest fashion trend.
+            An ecommerce website dedicated to members of an exclusive group to get the new release sneakers and latest fashion trend.
           </p>
           <p class="programming-language">HTML/CSS SASS/SCSS Javascript</p>
         </div>
       </div>
-      <div class="projects-section">
-        <div class="projects-feature-jamming">
-          <p class="featured-project">Featured Project</p>
-          <h3 class="project-label">Jamming</h3>
-          <p class="project-info">
-            Allows you to create a playlist from Spotify. Final project made
-            with Codecademy
-          </p>
-          <p class="programming-language">HTML/CSS Javascript React Node.js</p>
-        </div>
-        <img
-          class="jamming-pic"
-          src="./resources/images/jamming.jpg"
-          alt="jamming"
-        />
-      </div>
 
-      <div class="projects-section">
+    <!-- First Selection-->
+    <div class="projects-section reveal">
+      <div class="projects-feature-firstselection">
+        <p class="featured-project">Featured Project</p>
+        <h3 class="project-label">First Selection</h3>
+        <p class="project-info">
+          An auto repair service that sends a mechanic to your home to fix your car without going to the shop.
+        </p>
+        <p class="programming-language">HTML/CSS Javascript</p>
+      </div>
+      <div class="container">
+        <img
+          class="firstselection"
+          src="./resources/images/firstselection.jpg"
+          alt="firstselection"
+        />
+        <div class="middle">
+          <div class="text">
+            <a href="https://firstselection.netlify.app/">View Live</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+        <!-- Chattel Real -->
+        <div class="projects-section reveal">
+          <div class="container">
+            <img class="chattelrealpic" src="./resources/images/chattelreal.jpg" alt="krs" />
+            <div class="middle">
+              <div class="text">
+                <a href="https://chattelreal.netlify.app">View Live</a>
+              </div>
+            </div>
+          </div>
+          <div class="projects-feature-chattelreal">
+            <p class="featured-project">Featured Project</p>
+            <h3 class="project-label">Chattel Real</h3>
+            <p class="project-info">
+              A luxurious real estate website that allows you to find the perfect home.
+            </p>
+            <p class="programming-language">HTML/CSS SASS/SCSS Javascript</p>
+          </div>
+        </div>
+
+
+    <!-- Healthy Bytes-->
+    <div class="projects-section reveal">
+      <div class="projects-feature-healthybytes">
+        <p class="featured-project">Featured Project</p>
+        <h3 class="project-label">Healthy Bytes</h3>
+        <p class="project-info">
+          Nutritional website that helps you prepare a meal plan during the day
+          to make healthy eating choices.
+        </p>
+        <p class="programming-language">HTML/CSS Javascript</p>
+      </div>
+      <div class="container">
         <img
           class="healthybytes"
           src="./resources/images/healthybytes.jpg"
           alt="healthy"
         />
-        <div class="projects-feature-healthybytes">
-          <p class="featured-project">Featured Project</p>
-          <h3 class="project-label">Healthy Bytes</h3>
-          <p class="project-info">
-            Nutritional website that helps you prepare a meal plan during the
-            day to make healthy eating choices.
-          </p>
-          <p class="programming-language">HTML/CSS Javascript</p>
+        <div class="middle">
+          <div class="text">
+            <a href="https://healthybytes.netlify.app">View Live</a>
+          </div>
         </div>
       </div>
+    </div>
+
+
+    <!-- Jamming -->
+    <div class="projects-section reveal">
+      <div class="container">
+        <img class="jamming-pic" src="./resources/images/jamming.jpg" alt="jamming"/>
+         <div class="middle">
+          <div class="text">
+            <a href="http://slippery-drain.surge.sh">View Live</a>
+          </div>
+        </div>
+      </div>
+      <div class="projects-feature-jamming">
+        <p class="featured-project">Featured Project</p>
+        <h3 class="project-label">Jamming</h3>
+        <p class="project-info">Allows you to create a playlist using Spotify. Final project made with Codecademy.</p>
+        <p class="programming-language">HTML/CSS Javascript React Node.js</p>
+      </div>
+      </div>
     </section>
+  
 
     <!-- Contact Section -->
     <section id="contact">
-      <div class="contact-section">
+      <div class="contact-section reveal">
         <div class="contact-form">
-          <form class="form" action="#">
+          <form class="form" name="contact" netlify>
             <div class="contact-title">
               <h2 class="contact-me">Contact Me</h2>
+              <h2 class="get-in-touch">Get In Touch.</h2>
               <p class="contact-statement">
                 Have questions? Come say hello! :)
               </p>
-              <h2 class="get-in-touch">Get In Touch.</h2>
             </div>
             <div class="form-group">
               <input
-                type="text"
+                type="text" 
                 class="form-input"
                 placeholder="Name"
                 id="name"
@@ -260,7 +327,7 @@
             </div>
 
             <div class="form-group">
-              <button class="button-send">Send &rarr;</button>
+              <input class="button-form" name="form" type="submit" value="Send &rarr;">
             </div>
           </form>
         </div>
@@ -271,9 +338,12 @@
     <section class="footer-section">
       <div class="footer">
         <p class="footer-text">
-          Designed & Created by: <br />Ralph Cabauatan &copy; 2022
+          Designed & Created by: <br />Ralph Cabauatan &copy; 2023
         </p>
       </div>
     </section>
+
+     <!-- Javascript -->
+     <script src="/script.js"></script>
   </body>
 </html>
