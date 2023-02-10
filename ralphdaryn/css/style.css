@@ -101,8 +101,8 @@ textarea {
   color: #bfa77a;
   font-family: "Montserrat", sans-serif;
   font-size: 2.5rem;
-  padding-left: 2.5rem;
   font-weight: 400;
+  margin-left: 8rem;
 }
 
 .hero-text {
@@ -516,7 +516,11 @@ img:hover {
 }
 
 .projects-feature-firstselection {
-  padding: 0 2rem 0 10.5rem;
+  padding: 0 8rem 0 2.5rem;
+}
+
+.projects-feature-chattelreal {
+  padding: .5rem 2rem 0 13rem;
   display: flex;
   flex-direction: column;
   place-items: flex-end;
@@ -533,9 +537,6 @@ img:hover {
   width: 46rem;
 }
 
-.projects-feature-chattelreal {
-  padding: 0 8rem 0 2.5rem;
-}
 
 /* Contact Me Section  */
 
@@ -626,7 +627,7 @@ textarea {
   padding: .35rem;
 }
 
-.form-group {
+.form {
   padding: 5px;
 }
 
