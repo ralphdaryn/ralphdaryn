@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="/resources/images/favicon.ico" />
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Roboto+Mono:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icons -->
+    <script
+      src="https://kit.fontawesome.com/19cb3d8b49.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/queries.css" />
+
+    <title>ralphdaryn</title>
+  </head>
+
+  <body>
+    <!-- Header Section -->
+    <header class="header">
+      <!-- Logo -->
+      <h2 class="logo-text">ralphdaryn<i class="fa-solid fa-code"></i></h2>
+      <!-- Navigation Bar -->
+      <nav class="navbar">
+        <ul class="navlink-title">
+          <li class="navlink"><a class="navlink-label" href="#">Home</a></li>
+          <li class="navlink">
+            <a class="navlink-label" href="#about">About</a>
+          </li>
+          <li class="navlink">
+            <a class="navlink-label" href="#projects">Projects</a>
+          </li>
+          <li class="navlink">
+            <a class="navlink-label" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Mobile Navigation -->
+      <button class="btn-mobile-nav">
+        <i class="fa-solid fa-bars fa-2x"></i>
+        <i class="fa-solid fa-xmark fa-2x"></i>
+      </button>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-container">
+        <div class="hero-text">
+          <p class="hero-intro">Hi, my name is</p>
+          <h1>Ralph Cabauatan.</h1>
+          <h3 class="hero-role">Front End Developer</h3>
+        </div>
+        <div class="pic-coding">
+          <img class="coding" src="./resources/images/coding.jpg" alt="" />
+          <img class="tree" src="./resources/images/tree.jpg" alt="" />
+        </div>
+        <div class="button">
+          <a href="#about" class="button-learn">Learn More</a>
+        </div>
+      </div>
+
+      <!-- Sidebar left -->
+      <div class="sidebar-left">
+        <ul class="sidebar-left-list">
+          <li class="sidebar-left-link">
+            <a href="http://www.github.com/ralphdaryn"
+              ><i class="fa-brands fa-github fa-lg"></i
+            ></a>
+          </li>
+          <li class="sidebar-left-link">
+            <a href="https://www.linkedin.com/in/ralphdaryn/"
+              ><i class="fa-brands fa-linkedin fa-lg"></i
+            ></a>
+          </li>
+          <li class="sidebar-left-link">
+            <a href="https://app.netlify.com/teams/ralphdaryn/"
+              ><i class="fa-solid fa-diamond fa-lg"></i
+            ></a>
+          </li>
+          <div class="vertical-left"></div>
+        </ul>
+      </div>
+
+      <!-- Sidebar right -->
+      <div class="sidebar-right">
+        <div class="sidebar-right-list">
+          <a href="mailto:ralphdarync@gmail.com" class="sidebar-right-email"
+            >ralphdarync@gmail.com</a
+          >
+          <div class="vertical-right"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="aboutme reveal" id="about">
+      <div class="about-me">
+        <h2 class="about-me-title">About Me</h2>
+        <p class="about-me-info">
+          Greetings! My name is Ralph Cabauatan and I'm a self taught Front End
+          Developer currently based in Toronto, Ontario.<br /><br />
+          I'm passionate about building web applications that live on the
+          internet and I enjoy problem solving using logic thinking to create
+          intuitive and visually appealing websites that provide users a
+          seamless experience.<br /><br />I believe with hard work, perseverance
+          and little bit of research, anything can be accomplished!
+        </p>
+        <a
+          href="https://drive.google.com/file/d/1FyT8WuHnl1fOwZDHEF6BQtK6GrdiUogT/view?usp=sharing"
+          class="resume"
+        >
+          <div class="button-about">View Resume</div>
+        </a>
+      </div>
+      <div class="about-me-photo">
+        <img
+          class="about-me-photo-rd"
+          src="./resources/images/rd.png"
+          alt="rd"
+        />
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills-section reveal">
+      <div class="skills">
+        <h2 class="skills-title">My Skills</h2>
+        <ul class="skills-list-type">
+          <li class="skills-list">
+            HTML/CSS
+            <i class="fa-brands fa-html5">
+              <i class="fa-brands fa-css3-alt"></i
+            ></i>
+          </li>
+          <li class="skills-list">
+            Javascript <i class="fa-brands fa-js"></i>
+          </li>
+          <li class="skills-list">React <i class="fa-brands fa-react"></i></li>
+          <li class="skills-list">Node.js <i class="fa-brands fa-node"></i></li>
+          <li class="skills-list">
+            REST API <i class="fa-solid fa-diagram-project"></i>
+          </li>
+        </ul>
+        <ul class="skills-list-type">
+          <li class="skills-list">
+            Bootstrap <i class="fa-brands fa-bootstrap"></i>
+          </li>
+          <li class="skills-list">
+            SASS/SCSS <i class="fa-brands fa-sass"></i>
+          </li>
+          <li class="skills-list">
+            jQuery <i class="fa-solid fa-laptop-code"></i>
+          </li>
+          <li class="skills-list">SQL <i class="fa-solid fa-server"></i></li>
+          <li class="skills-list">Git <i class="fa-brands fa-git-alt"></i></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2 class="projects-title reveal">Projects I've Built</h2>
+
+      <!-- Movienator -->
+      <div class="projects-section reveal">
+        <div class="container">
+          <img
+            class="jamming-pic"
+            src="./resources/images/movienator.jpg"
+            alt="movienator"
+          />
+          <div class="middle">
+            <div class="text">
+              <a href="https://themovienator.netlify.app/">View Live</a>
+            </div>
+          </div>
+        </div>
+        <div class="projects-feature-jamming">
+          <p class="featured-project">Featured Project</p>
+          <h3 class="project-label">Movienator</h3>
+          <p class="project-info">
+            A web application that utilizes the OMDb API to enable users search
+            for a movie that displays the data and retrieve detailed information
+            about the selected movie.
+          </p>
+          <p class="programming-language">
+            Javascript, React |
+            <a class="view-code" href="https://github.com/ralphdaryn/movienator"
+              >View Code <i class="fa-solid fa-code-branch"></i
+            ></a>
+          </p>
+        </div>
+      </div>
+
+      <!-- Tipple Fusion-->
+      <div class="projects-section reveal">
+        <div class="projects-feature-healthybytes">
+          <p class="featured-project">Featured Project</p>
+          <h3 class="project-label">Tipple Fusion</h3>
+          <p class="project-info">
+            A web application that helps you find the recipe of your favourite
+            cocktail drink with the assistance of the CocktailDB API.
+          </p>
+          <p class="programming-language">
+            Javascript, React |
+            <a
+              class="view-code"
+              href="https://github.com/ralphdaryn/tipplefusion"
+              >View Code <i class="fa-solid fa-code-branch"></i
+            ></a>
+          </p>
+        </div>
+        <div class="container">
+          <img
+            class="healthybytes"
+            src="./resources/images/tipplefusion.jpg"
+            alt="tipplefusion"
+          />
+          <div class="middle">
+            <div class="text">
+              <a href="https://tipplefusion.netlify.app">View Live</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Jamming -->
+      <div class="projects-section reveal">
+        <div class="container">
+          <img
+            class="jamming-pic"
+            src="./resources/images/jamming.jpg"
+            alt="jamming"
+          />
+          <div class="middle">
+            <div class="text">
+              <a href="http://slippery-drain.surge.sh">View Live</a>
+            </div>
+          </div>
+        </div>
+        <div class="projects-feature-jamming">
+          <p class="featured-project">Featured Project</p>
+          <h3 class="project-label">Jamming</h3>
+          <p class="project-info">
+            Music web application that creates a playlist using your personal
+            Spotify account leveraging the Spotify Web API. Published using
+            Surge through NPM.
+          </p>
+          <p class="programming-language">
+            Javascript, React, Node.js |
+            <a class="view-code" href="https://github.com/ralphdaryn/jamming"
+              >View Code <i class="fa-solid fa-code-branch"></i></a
+            >
+          </p>
+        </div>
+      </div>
+
+      <!-- Agenda-->
+      <div class="projects-section reveal">
+        <div class="projects-feature-healthybytes">
+          <p class="featured-project">Featured Project</p>
+          <h3 class="project-label">Agenda</h3>
+          <p class="project-info">
+            A note taking web application that allows you to create, edit and
+            delete notes which stores data in a local web without expiration.
+          </p>
+          <p class="programming-language">
+            Javascript, React |
+            <a class="view-code" href="https://github.com/ralphdaryn/agenda"
+              >View Code <i class="fa-solid fa-code-branch"></i></a
+            >
+          </p>
+        </div>
+        <div class="container">
+          <img
+            class="healthybytes"
+            src="./resources/images/agenda.jpg"
+            alt="agenda"
+          />
+          <div class="middle">
+            <div class="text">
+              <a href="https://agendasite.netlify.app/">View Live</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Kicks R Us -->
+      <div class="projects-section reveal">
+        <div class="container">
+          <img class="krspic" src="./resources/images/kicksrus.jpg" alt="krs" />
+          <div class="middle">
+            <div class="text">
+              <a href="https://kicksrus.netlify.app/">View Live</a>
+            </div>
+          </div>
+        </div>
+        <div class="projects-feature-krs">
+          <p class="featured-project">Featured Project</p>
+          <h3 class="project-label">Kicks R Us</h3>
+          <p class="project-info">
+            An e-commerce website dedicated to members of an exclusive group to
+            get the new release sneakers and latest fashion trend.
+          </p>
+          <p class="programming-language">
+            HTML/CSS, SASS/SCSS, Javascript |
+            <a class="view-code" href="https://github.com/ralphdaryn/kicksrus"
+              >View Code <i class="fa-solid fa-code-branch"></i></a
+            >
+          </p>
+        </div>
+      </div>
+
+      <!-- Healthy Bytes-->
+      <div class="projects-section reveal">
+        <div class="projects-feature-healthybytes">
+          <p class="featured-project">Featured Project</p>
+          <h3 class="project-label">Healthy Bytes</h3>
+          <p class="project-info">
+            A nutritional website that will help you prepare a meal plan during
+            the day to make healthy eating choices.
+          </p>
+          <p class="programming-language">
+            HTML/CSS, Javascript |
+            <a
+              class="view-code"
+              href="https://github.com/ralphdaryn/healthybytes"
+              >View Code <i class="fa-solid fa-code-branch"></i></a
+            >
+          </p>
+        </div>
+        <div class="container">
+          <img
+            class="healthybytes"
+            src="./resources/images/healthybytes.jpg"
+            alt="healthy"
+          />
+          <div class="middle">
+            <div class="text">
+              <a href="https://healthybytes.netlify.app">View Live</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- First Selection-->
+      <div class="projects-section reveal">
+        <div class="container">
+          <img
+            class="firstselection"
+            src="./resources/images/firstselection.jpg"
+            alt="firstselection"
+          />
+          <div class="middle">
+            <div class="text">
+              <a href="https://firstselection.netlify.app/">View Live</a>
+            </div>
+          </div>
+        </div>
+        <div class="projects-feature-firstselection">
+          <p class="featured-project">Featured Project</p>
+          <h3 class="project-label">First Selection</h3>
+          <p class="project-info">
+            An auto repair service website that will send a mechanic to your
+            home to fix your car without going to the shop for your convenience.
+          </p>
+          <p class="programming-language">
+            HTML/CSS, Javascript |
+            <a
+              class="view-code"
+              href="https://github.com/ralphdaryn/firstselection"
+              >View Code <i class="fa-solid fa-code-branch"></i></a
+            >
+          </p>
+        </div>
+      </div>
+
+      <!-- Chattel Real-->
+      <div class="projects-section reveal">
+        <div class="projects-feature-chattelreal">
+          <p class="featured-project">Featured Project</p>
+          <h3 class="project-label">Chattel Real</h3>
+          <p class="project-info">
+            A luxurious real estate website that allows you to find the perfect
+            home across North America built with SASS/SCSS Grid layout.
+          </p>
+          <p class="programming-language">
+            HTML/CSS, SASS/SCSS |
+            <a
+              class="view-code"
+              href="https://github.com/ralphdaryn/chattelreal"
+              >View Code <i class="fa-solid fa-code-branch"></i></a
+            >
+          </p>
+        </div>
+        <div class="container">
+          <img
+            class="chattelrealpic"
+            src="./resources/images/chattelreal.jpg"
+            alt="chattel"
+          />
+          <div class="middle">
+            <div class="text">
+              <a href="https://chattelreal.netlify.app">View Live</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="contact-section reveal">
+        <form class="form" name="contact" method="POST" data-netlify="true">
+          <div class="contact-form">
+            <div class="contact-title">
+              <h2 class="contact-me">Contact Me</h2>
+              <h2 class="get-in-touch">Get In Touch.</h2>
+              <p class="contact-statement">
+                Have questions? Come say hello! :)
+              </p>
+            </div>
+            <div class="form">
+              <input
+                type="text"
+                class="form-input"
+                placeholder="Name"
+                id="name"
+                name="name"
+                required
+              />
+              <label class="form-label" for="name"></label>
+            </div>
+
+            <div class="form">
+              <input
+                class="form-input"
+                type="email"
+                placeholder="Email Address"
+                id="email"
+                name="email"
+                required
+              />
+              <label class="form-label" for="email"></label>
+            </div>
+
+            <div class="form">
+              <textarea
+                id="message"
+                cols="60"
+                rows="5"
+                placeholder="Write something here..."
+                name="message"
+                required
+              ></textarea>
+            </div>
+
+            <div class="form">
+              <input
+                class="button-form"
+                name="form"
+                type="submit"
+                value="Send &rarr;"
+              />
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <section class="footer-section">
+      <div class="footer">
+        <p class="footer-text">
+          Designed & Created by: <br />Ralph Cabauatan &copy; 2023
+        </p>
+      </div>
+    </section>
+
+    <!-- Javascript -->
+    <script src="/script.js"></script>
+  </body>
+</html>
