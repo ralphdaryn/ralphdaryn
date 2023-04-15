@@ -269,6 +269,10 @@
   }
   .button-about {
     padding: 0.5rem 0.4rem;
+    margin-left: 8rem;
+  }
+  .about-me {
+    padding: 5rem;
   }
   .skills-list-type {
     padding: 0;
@@ -381,16 +385,17 @@
     height: 100%;
   }
   .about-me {
-    width: 40%;
+    width: 35%;
     padding: 0;
   }
   .button-about {
     padding: 0.5rem 1rem;
-    margin-left: 12rem;
+    margin-left: 8rem;
   }
   .about-me-photo-rd {
     width: 90%;
     margin-bottom: 5rem;
+    border-radius: 45px;
   }
   .skills-section {
     padding: 0 5rem;
@@ -451,16 +456,17 @@
     left: 100px;
   }
   .about-me {
-    width: 40%;
+    width: 35%;
     padding: 0;
   }
   .button-about {
-    padding: 1rem;
-    margin-left: 12rem;
+    padding: 0.5rem 1rem;
+    margin-left: 8rem;
   }
   .about-me-photo-rd {
     width: 90%;
     margin-bottom: 5rem;
+    border-radius: 45px;
   }
   .skills-section {
     padding: 0 4rem;
@@ -531,21 +537,21 @@
   }
   .about-me {
     width: 50%;
-    margin-left: 6rem;
-    font-size: 1rem;
-    padding: 0 1rem;
+    padding-left: 6rem;
   }
   .button-about {
-    padding: 0.65rem;
-    margin-left: 10rem;
+    padding: 0.5rem 1rem;
+    margin-left: 5rem;
+    width: 35%;
+  }
+  .about-me-photo-rd {
+    width: 85%;
+    margin-bottom: 5rem;
+    margin-right: 5rem;
+    border-radius: 45px;
   }
   .resume {
     font-size: 1rem;
-  }
-  .about-me-photo-rd {
-    width: 90%;
-    margin-right: 3rem;
-    padding: 2rem;
   }
   .skills-section {
     padding: 0 2.25rem;
@@ -627,6 +633,7 @@
   }
   .button-about {
     width: 25%;
+    margin-left: 12rem;
   }
   .hero-container {
     height: 75vh;
@@ -650,7 +657,8 @@
   }
   .about-me-photo-rd {
     width: 50%;
-    margin: 0;
+    margin-top: 1rem;
+    margin-left: 3.5rem;
   }
   .skills-list-type {
     display: grid;
@@ -922,7 +930,7 @@
     left: -0.25rem;
   }
   .vertical-right {
-    margin-left: 13.1rem;
+    margin-left: 13.3rem;
   }
   #about {
     display: grid;

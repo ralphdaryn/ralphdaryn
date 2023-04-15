@@ -298,7 +298,11 @@ textarea {
 }
 
 .about-me-photo-rd {
-  border-radius: 15px;
+  position: relative;
+  border-radius: 30px;
+  filter: brightness(78%) contrast(110%);
+  padding: 20px;
+  box-shadow: 5px -5px 0px #bfa77a;
 }
 
 .button-about {
@@ -520,7 +524,7 @@ img:hover {
 }
 
 .projects-feature-chattelreal {
-  padding: .5rem 2rem 0 13rem;
+  padding: 0.5rem 2rem 0 13rem;
   display: flex;
   flex-direction: column;
   place-items: flex-end;
@@ -537,6 +541,14 @@ img:hover {
   width: 46rem;
 }
 
+.view-code {
+  color: #f2cf66;
+}
+
+.view-code:hover {
+  cursor: pointer;
+  color: #eec037;
+}
 
 /* Contact Me Section  */
 
@@ -609,7 +621,7 @@ img:hover {
   color: #d7d7d9;
   font-size: 1.25rem;
   font-weight: 500;
-  padding: .35rem;
+  padding: 0.35rem;
 }
 
 .form-label {
@@ -624,7 +636,7 @@ textarea {
   color: #d7d7d9;
   font-size: 1.25rem;
   font-weight: 500;
-  padding: .35rem;
+  padding: 0.35rem;
 }
 
 .form {
@@ -636,13 +648,13 @@ textarea {
   color: white;
   border: 1px solid #d7d7d9;
   border-radius: 5px;
-  padding: .5rem;
+  padding: 0.5rem;
   width: 30%;
   font-family: "Roboto Mono", monospace;
   font-size: 1.5rem;
   text-align: center;
   margin-left: 35%;
-  text-transform:uppercase;
+  text-transform: uppercase;
   cursor: pointer;
 }
 
@@ -746,13 +758,13 @@ textarea {
 }
 
 /* Reveal Elements on Scroll */
-.reveal{
+.reveal {
   position: relative;
   transform: translateY(250px);
   opacity: 0;
   transition: all 1.3s ease-in;
 }
-.reveal.active{
+.reveal.active {
   transform: translateY(100px);
   opacity: 1;
 }
